@@ -16,20 +16,20 @@ System requirements:
 
 Clone the repository:
 ```
-git clone https://github.com/f90/Wave-U-Net-Pytorch.git
+[https://github.com/cjzcjz666/music.git]
 ```
 
 Recommended: Create a new virtual environment to install the required Python packages into, then activate the virtual environment:
 
 ```
-virtualenv --python /usr/bin/python3.6 waveunet-env
-source waveunet-env/bin/activate
+conda create -n waveunet python=3.6
+conda activate waveunet
 ```
 
 Install all the required packages listed in the ``requirements.txt``:
 
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 # Download datasets
@@ -83,7 +83,7 @@ Extract the archive into the ``checkpoints`` subfolder in this repository, so th
 To apply our pretrained model to any of your own songs, simply point to its audio file path using the ``input_path`` parameter:
 
 ```
-python3.6 predict.py --load_model checkpoints/waveunet/model --input "audio_examples/Cristina Vane - So Easy/mix.mp3"
+python predict.py --load_model checkpoints/waveunet/model --input "audio_examples/Cristina Vane - So Easy/mix.mp3"
 ```
 
 * Add ``--cuda `` when using a GPU, it should be much quicker
