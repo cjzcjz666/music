@@ -56,7 +56,7 @@ musdbconvert path/to/musdb-stems-root path/to/new/musdb-wav-root
 To train a Wave-U-Net, the basic command to use is
 
 ```
-python3.6 train.py --dataset_dir /PATH/TO/MUSDB18HQ 
+python mytrain.py --dataset_dir /PATH/TO/MUSDB18HQ 
 ```
 where the path to MUSDB18HQ dataset needs to be specified, which contains the ``train`` and ``test`` subfolders.
 
@@ -66,7 +66,7 @@ Add more command line parameters as needed:
 * ``--checkpoint_dir`` and ``--log_dir`` to specify where checkpoint files and logs are saved/loaded
 * ``--load_model checkpoints/model_name/checkpoint_X`` to start training with weights given by a certain checkpoint
 
-For more config options, see ``train.py``.
+For more config options, see ``mytrain.py``.
 
 Training progress can be monitored by using Tensorboard on the respective ``log_dir``.
 After training, the model is evaluated on the MUSDB18HQ test set, and SDR/SIR/SAR metrics are reported for all instruments and written into both the Tensorboard, and in more detail also into a ``results.pkl`` file in the ``checkpoint_dir``
