@@ -46,7 +46,10 @@ You should use tools to generate 'bass.wav' first.
 
 There are tools: https://github.com/sigsep/sigsep-mus-db
 
-Use command: musdbconvert path/to/musdb-stems-root path/to/new/musdb-wav-root
+Use command: 
+```
+musdbconvert path/to/musdb-stems-root path/to/new/musdb-wav-root
+```
 
 # Training the models
 
