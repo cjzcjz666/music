@@ -42,6 +42,12 @@ To start training your own models, download the [full MUSDB18HQ dataset](https:/
 
 You can of course use your own datasets for training, but for this you would need to modify the code manually, which will not be discussed here. However, we provide a loading function for the normal MUSDB18 dataset as well.
 
+You should use tools to generate 'bass.wav' first.
+
+There are tools: https://github.com/sigsep/sigsep-mus-db
+
+Use command: musdbconvert path/to/musdb-stems-root path/to/new/musdb-wav-root
+
 # Training the models
 
 To train a Wave-U-Net, the basic command to use is
