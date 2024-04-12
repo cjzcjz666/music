@@ -13,7 +13,6 @@ System requirements:
 * [libsndfile](http://mega-nerd.com/libsndfile/) 
 
 * [ffmpeg](https://www.ffmpeg.org/)
-* CUDA 10.1 for GPU usage
 
 Clone the repository:
 ```
