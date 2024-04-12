@@ -1,11 +1,6 @@
 # Wave-U-Net (Pytorch)
 <a href="https://replicate.ai/f90/wave-u-net-pytorch"><img src="https://img.shields.io/static/v1?label=Replicate&message=Demo and Docker Image&color=darkgreen" height=20></a>
 
-Improved version of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation, implemented in Pytorch.
-
-Click [here](www.github.com/f90/Wave-U-Net) for the original Wave-U-Net implementation in Tensorflow.
-You can find more information about the model and results there as well.
-
 # Improvements
 
 * Multi-instrument separation by default, using a separate standard Wave-U-Net for each source (can be set to one model as well)
