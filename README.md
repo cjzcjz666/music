@@ -15,7 +15,7 @@ System requirements:
 
 Clone the repository:
 ```
-[https://github.com/cjzcjz666/music.git]
+https://github.com/cjzcjz666/music.git
 ```
 
 Recommended: Create a new virtual environment to install the required Python packages into, then activate the virtual environment:
