@@ -34,17 +34,6 @@ Install all the required packages listed in the ``requirements.txt``:
 pip3 install -r requirements.txt
 ```
 
-### Option 2: Singularity
-
-We also provide a Singularity container which allows you to avoid installing the correct Python, CUDA and other system libraries, however we don't provide specific advice on how to run the container and so only do this if you have to or know what you are doing (since you need to mount dataset paths to the container etc.)
-
-To pull the container, run
-```
-singularity pull shub://f90/Wave-U-Net-Pytorch
-```
-
-Then run the container from the directory where you cloned this repository to, using the commands listed further below in this readme.
-
 # Download datasets
 
 To directly use the pre-trained models we provide for download to separate your own songs, now skip directly to the [last section](#test), since the datasets are not needed in that case.
