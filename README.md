@@ -8,7 +8,6 @@ GPU strongly recommended to avoid very long training times.
 ### Option 1: Direct install (recommended)
 
 System requirements:
-* Linux-based OS
 * Python 3.6
 
 * [libsndfile](http://mega-nerd.com/libsndfile/) 
